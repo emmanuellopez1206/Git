@@ -3,7 +3,7 @@ from app.routers import user
 from app.db.database import Base, engine
 import uvicorn
 
-
+##This is a test comment
 
 def create_tables():
     Base.metadata.create_all(bind=engine)
